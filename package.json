@@ -2,6 +2,7 @@
   "name": "sammy",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Sammy-Maldonado.github.io/prueba",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -57,7 +57,7 @@ const Home = () => {
       <div className='d-flex justify-content-center align-items-center mt-4'>
         <img
           className='rymLogo img-fluid'
-          src='images/rym-logo.png'
+          src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/1200px-Rick_and_Morty.svg.png'
           alt='rick and morty logo' />
       </div>
       <div className='cContainer my-4'>
