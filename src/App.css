@@ -1,0 +1,44 @@
+/* Estilos para el logo de RYM */
+.rymLogo {
+  width: 500px;
+}
+
+.cContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Letras al estilo RyM */
+.ph1 {
+  font-family: 'Creepster', cursive;
+  font-size: 3.5rem;
+  color: #40b5cb;
+  -webkit-text-stroke: 1.8px rgba(0,0,0,0.8);
+  text-shadow: 0.1em 0.1em 0.2em #c0df40;
+}
+
+.ph2 {
+  font-family: 'Creepster', cursive;
+  color: #40b5cb;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 0.5px rgba(0,0,0,0.8);
+  text-shadow: 0.1em 0.1em 0.2em #c0df40;
+}
+
+.episodio-txt {
+  font-family: 'Creepster', cursive;
+  font-size: 3rem;
+  color: #40b5cb;
+  -webkit-text-stroke: 1.7px rgba(0, 0, 0, 0.8);
+  text-shadow: 0.1em 0.1em 0.2em #c0df40;
+}
+
+/* Paginación */
+.active {
+  border-bottom: 3px solid #40b5cb;
+  font-weight: bold;
+  color: #40b5cb;
+}
