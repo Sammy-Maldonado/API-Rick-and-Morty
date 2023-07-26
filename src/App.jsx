@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useHistory } from 'react-router-dom';
 import './App.css';
 import Filters from './components/Filters/Filters';
 import Cards from './components/Cards/Cards';
