@@ -34,7 +34,6 @@ const Filters = ({ setStatus, setPageNumber, setGender, setSpecies }) => {
         <Status setStatus={setStatus} setPageNumber={setPageNumber} />
         <Species setSpecies={setSpecies} setPageNumber={setPageNumber}/>
         <Gender setGender={setGender} setPageNumber={setPageNumber} />
-        
       </div>
     </div>
   );
