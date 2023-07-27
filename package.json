@@ -2,7 +2,7 @@
   "name": "sammy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Sammy-Maldonado.github.io/prueba",
+  "homepage": "https://Sammy-Maldonado.github.io/API-Rick-and-Morty",
   "type": "module",
   "scripts": {
     "dev": "vite",
