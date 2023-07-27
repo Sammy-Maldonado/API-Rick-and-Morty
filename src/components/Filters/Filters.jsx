@@ -1,15 +1,17 @@
 import React from 'react';
 import Gender from './Category/Gender';
+import Species from './Category/Species';
 import Status from './Category/Status';
 import styles from './Filter.module.scss';
 
-const Filters = ({ setStatus, setPageNumber, setGender }) => {
+const Filters = ({ setStatus, setPageNumber, setGender, setSpecies }) => {
 
   // Función para borrar los filtros y recargar la página
   let clear = () => {
     setStatus("")
     setPageNumber("")
     setGender("")
+    setSpecies("")
     window.location.reload(false);
   };
 
@@ -30,7 +32,9 @@ const Filters = ({ setStatus, setPageNumber, setGender }) => {
       {/* Contenedor de los filtros */}
       <div className='accordion' id='accordionExample'>
         <Status setStatus={setStatus} setPageNumber={setPageNumber} />
+        <Species setSpecies={setSpecies} setPageNumber={setPageNumber}/>
         <Gender setGender={setGender} setPageNumber={setPageNumber} />
+        
       </div>
     </div>
   );
